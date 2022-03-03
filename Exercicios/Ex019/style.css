@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* 
+    EM HTML É ID ,   EM CSS É # (e só pode 1 elemento com id)
+    EM HTML é class, EM CSS É . (pode varios elementos)
+*/
+
+body {
+    background-color: rgba(154, 154, 209, 0.912)
+}
+
+h1 {
+    color: rgba(13, 13, 111, 0.583);
+}
+/* Pode colocar h1#princial ou apenas #princial*/
+h1#principal {
+    text-align: center;
+    color: black;
+    background-color: rgb(86, 86, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(34, 34, 53);
+}
+
+/* pode usar o h2.basico ou apenas .basico
+Normalmente pro "Class" usamos apenas o . do que a sigla na frente
+Ja pro id é bom usar a sigla ex: h1#principal e não apenas #principal */
+
+.basico {
+    color: brown; 
+}
+
+.intermediario {
+    color: yellow;   
+}
+
+.avançado {
+    color: rgb(85, 63, 6);
+}
+
+.destaque {
+    background-color: rgba(208, 208, 77, 0.364);
+}

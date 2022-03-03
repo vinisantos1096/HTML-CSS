@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Videos Hospedados Localmente</h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+
+    <video width="560" controls autoplay loop> <!--widht fica o tamanho no site. controls pra da play.-->
+        <!--se eu colocar a tag posters dentro da tag video, é a imagem que vai fica parada no site antes de alguem dar play.-->
+        <source src="midia/Meuvideo.m4v" type="video/mp4">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <source src="midia/Meuvideo.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+    <h1>Inserindo videos do youtube. </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
