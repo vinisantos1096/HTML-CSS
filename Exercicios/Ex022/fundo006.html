@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
+            
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; 
+            /*
+            /*  Shorthand - background 
+                color > image > position > repeat > [size] > attachment 
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover; /* só esse background size que não funciona no shorthand */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +38,11 @@
     <main>
         <h1>Teste de imagem de Fundo</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quo odio saepe sapiente ullam non doloribus ea ut suscipit voluptas numquam sed, atque, molestias ratione ex excepturi. Eaque, rem repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti iure temporibus velit, atque error maxime perferendis eaque quae! Atque, aut temporibus porro praesentium officia exercitationem magni debitis maiores quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nulla commodi facere, aliquid esse porro aperiam earum expedita. Rerum placeat provident voluptatem non ipsum expedita exercitationem optio nulla quas fugiat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id corporis eligendi optio quaerat odio voluptatibus molestias doloribus molestiae at perferendis tenetur quidem nesciunt consequuntur voluptatum rem error architecto, voluptas nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit distinctio doloribus, consectetur magnam quas vitae. Delectus necessitatibus beatae, id eveniet corrupti numquam eius totam, porro temporibus officiis voluptatibus ullam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maiores magnam mollitia et impedit illum. Accusantium iusto, quod dicta maxime rerum exercitationem! Animi illo porro eos voluptatibus iure quae incidunt?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio amet explicabo assumenda, quam quidem facilis ab vitae, odio porro mollitia sequi voluptatibus inventore reiciendis sed nobis labore ratione eius corrupti!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis tenetur quaerat nulla excepturi. Rem hic eligendi placeat est, dignissimos, adipisci neque unde quaerat maxime aliquam minima dolorum nemo cumque facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda at repellendus labore illum, odio iusto? Omnis eligendi pariatur accusantium consectetur, consequatur officiis libero veniam eius eos quod autem sequi.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit. Dolorem deserunt iusto, magni fugit dolore dolorum voluptates! Debitis minus maiores omnis ducimus placeat dolor repellendus nulla et obcaecati autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iure consequatur voluptatibus perspiciatis vel aperiam, voluptatum rem amet quisquam fugiat maxime assumenda modi adipisci. Magni eligendi minima deleniti quae eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, excepturi? Maiores sequi atque, delectus libero in necessitatibus placeat totam optio aliquam, inventore dignissimos, nostrum laboriosam deserunt vitae maxime? Placeat, quasi.</p>
     </main>
 </body>
 </html>
