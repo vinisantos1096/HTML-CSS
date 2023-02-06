@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* Declarações Gerais */
-* {
+@media all {
+    * {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +22,8 @@ h1 {
     text-shadow: 2px 2px 0px #1627a7;
     padding: 10px;
 }
+}
+
 
     /* Declarações Retrato*/
     @media screen and (orientation: portrait) {
